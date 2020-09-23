@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="container mt-5 page-title">
+        <div class="row justify-content-center">
+            <h1>Pure CSS <span>accordion and tabs</span> </h1>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion">
+                    <div class="accordion__item" id="alpha">
+
+                        <a href="#alpha" class="accordion__item--title">
+                            <p>Alpha</p> <i class="fas fa-sort-down"></i>
+                        </a>
+
+                        <div class="accordion__item--content">
+                            <h2>ALPHA</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores sapiente deleniti
+                                fugit
+                                autem nobis numquam tempora vel earum! Eaque, vitae ex ipsa beatae assumenda aperiam
+                                suscipit
+                                officiis ab.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item" id="beta">
+
+                        <a href="#beta" class="accordion__item--title">
+                            <p>Beta</p> <i class="fas fa-sort-down"></i>
+                        </a>
+
+                        <div class="accordion__item--content">
+                            <h2>BETA</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores sapiente deleniti
+                                fugit
+                                autem nobis numquam tempora vel earum! Eaque, vitae ex ipsa beatae assumenda aperiam
+                                suscipit
+                                officiis ab.</p>
+                        </div>
+                    </div>
+                    <div class="accordion__item" id="gamma">
+
+                        <a href="#gamma" class="accordion__item--title">
+                            <p>Gamma</p> <i class="fas fa-sort-down"></i>
+                        </a>
+
+                        <div class="accordion__item--content">
+                            <h2>GAMMA</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores sapiente deleniti
+                                fugit
+                                autem nobis numquam tempora vel earum! Eaque, vitae ex ipsa beatae assumenda aperiam
+                                suscipit
+                                officiis ab.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tabs">
+                    <input type="radio" name="tabs" id="tab1" checked>
+                    <label for="tab1">Tab One</label>
+
+                    <input type="radio" name="tabs" id="tab2">
+                    <label for="tab2">Tab Two</label>
+
+                    <input type="radio" name="tabs" id="tab3">
+                    <label for="tab3">Tab Three</label>
+
+                    <div class="content-bg">
+                        <div class="tabs__content">
+                            <div class="tabs__content--item">
+                                <h2>One</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat modi
+                                    explicabo
+                                    laborum error nisi illo non maxime.</p>
+                            </div>
+                            <div class="tabs__content--item">
+                                <h2>Two</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, veniam. Non
+                                    natus
+                                    iusto deleniti aliquam quisquam ullam nemo nostrum quia vero, nisi molestias ducimus
+                                    reprehenderit?</p>
+                            </div>
+                            <div class="tabs__content--item">
+                                <h2>Three</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error autem laudantium
+                                    aliquam
+                                    ut?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
